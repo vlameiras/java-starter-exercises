@@ -22,5 +22,8 @@ Desenvolva uma class que possua um método que implemente a multiplicação de d
 Nota: Algoritmo http://mathforum.org/dr.math/faq/faq.peasant.html
 
 
-
 5) Calcular idade baseada no período orbital de cada planeta (sidereal period) em anos
+
+6) Desenvolva método que receba como parâmetro uma string e, caso esta seja constituída por palavras separadas pelo caracter espaço, capitaliza a primeira letra de todas as palavras.
+
+Mais tarde: Mostrar exemplo o apache.commons.lang3 http://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/text/WordUtils.html
