@@ -1,0 +1,11 @@
+package org.altar.training.ex6;
+
+public class WordCapitalizer {
+	public static void main(String[] args) {
+		System.out.println("Welcome to the jungle!");
+	}
+	
+	private String wordCapitalizer(String input){
+		return input.substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();
+	}
+}

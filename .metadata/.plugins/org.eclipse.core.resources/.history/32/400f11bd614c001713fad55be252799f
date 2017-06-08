@@ -1,0 +1,13 @@
+package org.altar.training.ex6;
+
+public class WordCapitalizer {
+	public static void main(String[] args) {
+		String words = "Welcome to the jungle";
+		System.out.println(wordCapitalizer(words));
+	}
+	
+	private static String wordCapitalizer(String input){
+		
+	}
+}
+

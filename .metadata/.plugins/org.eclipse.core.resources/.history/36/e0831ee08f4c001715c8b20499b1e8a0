@@ -1,0 +1,15 @@
+package org.altar.training.ex2;
+
+import java.util.Arrays;
+
+public class Utils {
+	public static void sortArray(int [] intArr, OrderEnum order){
+		// Not the best way to check for null, use Optional instead
+		if(order != null && order == OrderEnum.ASCENDING){
+			Arrays.sort(intArr);
+		} else { // Defaults to DESCENDING
+			//Arrays.sort(intArr, Collections.reverseOrder());
+			//Only for Collections
+		}
+	}
+}

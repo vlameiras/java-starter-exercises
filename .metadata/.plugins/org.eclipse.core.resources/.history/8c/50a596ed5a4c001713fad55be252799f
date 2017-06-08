@@ -1,0 +1,30 @@
+package org.altar.training.ex1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MathPrime {
+	public static void main(String[] args) {
+		getPrimes(1, 3500);
+	}
+
+	private static int[] getPrimes(int min, int max){
+		List <Integer> list = new ArrayList<>();
+
+		for(int i = min; i <= max; i++){
+			if(isPrime(i)){
+				list.add(i);
+			}
+		}
+		return list.toArray(new int[list.size()]);
+	}
+	
+	public static boolean isPrime(int num) {
+	    for (int i = 2; i < num; i++) {
+	        if (num % i == 0) {
+	            return false;
+	        }
+	    }
+	    return true;
+	}
+}
