@@ -1,6 +1,0 @@
-package org.altar.training;
-
-public enum Order {
-	ASCENDING,
-	DESCENDING;
-}
