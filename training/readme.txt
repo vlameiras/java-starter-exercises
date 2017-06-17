@@ -38,3 +38,7 @@ https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci
 
 11) Desenvolva um método que identifique se uma palavra é um palíndromo ou não.
 A Palindrome is a word, phrase or sequence which reads the same in both directions.
+
+12) A empresa Domingos em Festa organiza festas de aniversário, no entanto o seu proprietário apenas tem disponibilidade aos domingos. Para o auxiliar na sua operação, necessita de um programa que ao introduzir uma data este lhe diga qual o dia da semana e, caso este não seja um domingo, lhe indique qual a data do próximo domingo.
+
+
